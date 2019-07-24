@@ -43,8 +43,6 @@ function viewCart() {
   }
 }
 
-
-
 function total() {
   // write your code here
   var cartTotal = 0;
