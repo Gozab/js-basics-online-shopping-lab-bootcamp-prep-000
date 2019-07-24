@@ -34,15 +34,12 @@ function viewCart() {
 
      
   } else if (cart.length > 2) {
-    
-    for (let x= 0; x  < cart.length; x++) {
+        for (let x= 0; x  < cart.length; x++) {
       if (x > 0)
         stuff += (x < cart.length -1) ? `, ` : `, and `;
       stuff += `${cart[x].itemName} at $${cart[x].itemPrice}`;
-      
-      
     }
-    return `${stuff}.`;
+      return `${stuff}.`;
   }
 }
 
