@@ -68,5 +68,4 @@ function placeOrder(cardNumber) {
       cart = cart.splice();
       return statement;
   }
-     
 }
